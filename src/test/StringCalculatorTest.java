@@ -24,10 +24,14 @@ public class StringCalculatorTest {
         assertThat(underTest.add("5"), is(5));
     }
 
+    @Test
+    public void addTwoNumbersReturnsTheSum() {
+        assertThat(underTest.add("1,2"), is(3));
+    }
 
     private class Calculator {
         public int add(String numbers) {
-            return 0;
+            return "".equals(numbers) ? 0 : Integer.valueOf(numbers);
         }
     }
 }
