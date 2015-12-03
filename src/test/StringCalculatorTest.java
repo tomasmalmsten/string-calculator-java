@@ -36,10 +36,14 @@ public class StringCalculatorTest {
         assertThat(underTest.add("1,2\n3"), is(6));
     }
 
+    @Test
+    public void addTwoNumbersWithSemicolonDelimiterReturnsTheSum() {
+        assertThat(underTest.add("//;\n1;2"), is(3));
+    }
 
     private class Calculator {
         public int add(String numbers) {
-            return "".equals(numbers) ? 0 : Arrays.stream(numbers.split(",")).mapToInt(Integer::parseInt).sum();
+            return "".equals(numbers) ? 0 : Arrays.stream(numbers.split(",|\n")).mapToInt(Integer::parseInt).sum();
         }
     }
 }
