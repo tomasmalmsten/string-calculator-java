@@ -1,14 +1,9 @@
 String Calculator TDD Kata
 --------------------------
 
-This repository contains different session where I have worked on
-Roy Osherove's String Calculator TDD kata.
+This time pairing with Haris, working for about 35 minutes. We managed to complete
+step and added test for four. This was done pairing over Skype which is perhaps
+not the best way to pair so we will need to find a better solution for remote
+pairing next time.
 
-This, the master branch, is a good starting point with a pre-configured
-pom.xml file for maven to work.
-
-Each new session will be a new branch. The readme in each will be notes
-on progress.
-
-The sessions are of different lengths and sometimes alone sometimes with
-a partner.
+Thanks Haris for a good session.
