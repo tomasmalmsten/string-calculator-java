@@ -1,14 +1,12 @@
-String Calculator TDD Kata
---------------------------
+String Calculator Kata
+=================
 
-This repository contains different session where I have worked on
-Roy Osherove's String Calculator TDD kata.
+This repository contains different runs of the String Calculator Kata in Java. The master
+branch should be keept clear and ready for a new fresh go at the kata. It will contain
+only the basic pom.xml file which provides a clean set of dependencies for test-driving
+the solution using JUnit, Hamcrest and Java 8.
 
-This, the master branch, is a good starting point with a pre-configured
-pom.xml file for maven to work.
+This template project, from the master branch, can be used for any kata practice in Java.
 
-Each new session will be a new branch. The readme in each will be notes
-on progress.
-
-The sessions are of different lengths and sometimes alone sometimes with
-a partner.
+For more info on the kata see here: http://osherove.com/tdd-kata-1/
+For more katas: http://codingdojo.org/cgi-bin/index.pl?KataCatalogue or http://codekata.com
